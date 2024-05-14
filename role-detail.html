@@ -1,0 +1,1741 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Roles Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.css">
+    <!-- CSS CDN -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div.dt-container .dt-length,
+        div.dt-container .dt-search,
+        div.dt-container .dt-info,
+        div.dt-container .dt-processing,
+        div.dt-container .dt-paging {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="form__container">
+                    <!-- title -->
+                    <div class="title__container  ">
+                        <div class="d-flex justify-content-between flex-md-row flex-column align-items-center  ">
+                            <div class="order-md-1 order-2 text-md-start text-center  d-flex align-items-center ">
+                                <h1 class="mb-0 pb-0"><a href="role.html"><i class="bi bi-arrow-left me-2"></i></a>Roles
+                                </h1>
+
+                            </div>
+                            <div class="order-md-2 order-1 mb-md-2 mb-4 d-flex justify-content-center ">
+                                <img src="images/logo-powerd.webp" alt="" class="img-fluid logo-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__container">
+                        <form action="" class="w-100">
+                            <div class="right__container ">
+                                <!-- personal info -->
+                                <fieldset id="form1" class="w-100">
+                                    <div class="input__container w-100">
+                                        <div class="row">
+                                            <div class="col-lg-6 mt-3 ">
+
+                                                <div class="accordion w-100 " id="accordionExample">
+                                                    <div class="accordion-item w-100 mb-3">
+                                                        <h2 class="accordion-header w-100" id="heading7">
+                                                            <button class="accordion-button " type="button"
+                                                                data-bs-toggle="collapse" data-bs-target="#collapse7"
+                                                                aria-expanded="true" aria-controls="collapse7">
+                                                                <div class="sub__title__container">
+                                                                    <h2>Personal Information</h2>
+                                                                </div>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapse7" class="accordion-collapse collapse show"
+                                                            aria-labelledby="heading7"
+                                                            data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body">
+                                                                <div class="input__container">
+                                                                    <div class="row w-100">
+                                                                        <div class="col-lg-12">
+                                                                            <div
+                                                                                class="mb-2 d-flex  align-items-center role-detail">
+                                                                                <label for="" class="">Title:</label>
+                                                                                <input type="text"
+                                                                                    placeholder="Role Title" value="">
+                                                                            </div>
+                                                                            <div
+                                                                                class="mb-2  d-flex  align-items-center role-detail">
+                                                                                <label for="">Story:</label>
+                                                                                <textarea name="" id="" class="w-100"
+                                                                                    value=""></textarea>
+                                                                            </div>
+                                                                            <div
+                                                                                class="mb-2  d-flex  align-items-center role-detail">
+                                                                                <label for="">Responsibilities:</label>
+                                                                                <textarea name="" id=""
+                                                                                    class="w-100"></textarea>
+                                                                            </div>
+                                                                            <div
+                                                                                class="mb-2  d-flex  align-items-center role-detail">
+                                                                                <label for="">Class:</label>
+                                                                                <select class="form-select " name=""
+                                                                                    id="">
+                                                                                    <option selected>Select Class
+                                                                                    </option>
+                                                                                    <option value="LPN">LPN</option>
+                                                                                    <option value="HCA">HCA</option>
+                                                                                    <option value="HHA">HHA</option>
+                                                                                    <option value="CNA">CNA</option>
+                                                                                    <option value="RN">RN</option>
+                                                                                </select>
+
+                                                                            </div>
+                                                                            <div
+                                                                                class="mb-2  d-flex  align-items-center role-detail">
+                                                                                <label for="">ZIP:</label>
+                                                                                <input type="text">
+                                                                            </div>
+                                                                            <div
+                                                                                class="mb-2  d-flex  align-items-center role-detail">
+                                                                                <label for="">Min Pay:</label>
+                                                                                <input type="text">
+                                                                            </div>
+                                                                            <div
+                                                                                class="mb-2  d-flex  align-items-center role-detail">
+                                                                                <label for="">Max Pay:</label>
+                                                                                <input type="text">
+                                                                            </div>
+                                                                            <div
+                                                                                class="mb-2  d-flex  align-items-center role-detail">
+                                                                                <label for="">Office:</label>
+                                                                                <input type="text">
+                                                                            </div>
+                                                                            <div
+                                                                                class="mb-2  d-flex  align-items-center role-detail">
+                                                                                <label for="">Owner:</label>
+                                                                                <input type="text">
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item w-100 mb-3">
+                                                        <h2 class="accordion-header w-100" id="headingThree">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse"
+                                                                data-bs-target="#collapseThree" aria-expanded="true"
+                                                                aria-controls="collapseThree">
+                                                                <div class="sub__title__container">
+                                                                    <h2>Roles and
+                                                                        Skills:</h2>
+                                                                </div>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseThree" class="accordion-collapse collapse "
+                                                            aria-labelledby="headingThree"
+                                                            data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body">
+                                                                <div class="input__container">
+                                                                    <div class="row w-100">
+                                                                        <div class="col-lg-12">
+                                                                            <p class="form-check-label mb-1">Role
+                                                                                you are
+                                                                                interested
+                                                                                in:
+                                                                            </p>
+                                                                        </div>
+                                                                        <div
+                                                                            class="col-lg-12 d-flex align-items-center flex-wrap ">
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span> Personal
+                                                                                        Care
+                                                                                        Assistant
+                                                                                        (PCA/
+                                                                                        HCA)</span>
+                                                                                </label>
+                                                                            </div>
+
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span> Home
+                                                                                        Health Aide
+                                                                                        (HHA)</span>
+                                                                                </label>
+                                                                            </div>
+
+                                                                            <div class="check-button ">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span> Certified
+                                                                                        Nursing
+                                                                                        Assistant
+                                                                                        (CNA)</span>
+                                                                                </label>
+                                                                            </div>
+
+                                                                            <div class="check-button ">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span> Licensed
+                                                                                        Practical
+                                                                                        Nurse
+                                                                                        (LPN)</span>
+                                                                                </label>
+                                                                            </div>
+
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Registered
+                                                                                        Nurse (RN)</span>
+                                                                                </label>
+                                                                            </div>
+
+
+                                                                        </div>
+
+
+                                                                        <div class="col-lg-12 mt-4">
+                                                                            <p class="form-check-label mb-1">Experience
+                                                                                with
+                                                                                specific
+                                                                                conditions:</p>
+                                                                        </div>
+                                                                        <div
+                                                                            class="col-lg-12 d-flex flex-wrap check-button-row">
+
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Parkinsons</span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Alzheimers</span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Dementia</span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-12 mt-4">
+                                                                            <p class="mb-0 form-check-label mb-1">
+                                                                                Certifications
+                                                                                completed:
+                                                                            </p>
+                                                                            <div
+                                                                                class="col-lg-12 d-flex flex-wrap  radio-button-row">
+                                                                                <div class="check-button ">
+                                                                                    <label>
+                                                                                        <input type="radio" value=""
+                                                                                            name="certification-completed"><span>Yes</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                                <div class="check-button ">
+                                                                                    <label>
+                                                                                        <input type="radio" value=""
+                                                                                            name="certification-completed"><span>NO</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item w-100 mb-3">
+                                                        <h2 class="accordion-header w-100" id="headingOne">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                                aria-expanded="false" aria-controls="collapseOne">
+                                                                <div class="sub__title__container">
+                                                                    <h2>Preferences </h2>
+                                                                </div>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseOne" class="accordion-collapse collapse "
+                                                            aria-labelledby="headingOne"
+                                                            data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body">
+                                                                <div class="input__container">
+                                                                    <div class="row">
+                                                                        <div class="col-lg-12">
+                                                                            <div class="form-check ps-0">
+                                                                                <div class="preference-name">
+                                                                                    <label class="form-check-label "
+                                                                                        for="distance">Travel
+                                                                                        Distance
+                                                                                        within:
+                                                                                    </label>
+                                                                                    <div class="preference-toolpit">
+                                                                                        How
+                                                                                        far
+                                                                                        are
+                                                                                        you
+                                                                                        willing
+                                                                                        to
+                                                                                        travel
+                                                                                        (in
+                                                                                        miles)
+                                                                                        to
+                                                                                        a
+                                                                                        patient's
+                                                                                        home?
+                                                                                    </div>
+                                                                                    <div class="arrow-down"></div>
+                                                                                </div>
+                                                                                <div
+                                                                                    class="col-lg-12 d-flex flex-wrap  radio-button-row">
+
+                                                                                    <div class="check-button ">
+                                                                                        <label>
+                                                                                            <input type="radio" value=""
+                                                                                                name="travel-distance"><span>
+                                                                                                2
+                                                                                                mile</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                    <div class="check-button ">
+                                                                                        <label>
+                                                                                            <input type="radio" value=""
+                                                                                                name="travel-distance"><span>
+                                                                                                5
+                                                                                                mile</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                    <div class="check-button ">
+                                                                                        <label>
+                                                                                            <input type="radio" value=""
+                                                                                                name="travel-distance"><span>
+                                                                                                10
+                                                                                                mile</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                    <div class="check-button ">
+                                                                                        <label>
+                                                                                            <input type="radio" value=""
+                                                                                                name="travel-distance"><span>
+                                                                                                20
+                                                                                                mile</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+
+                                                                        </div>
+                                                                        <div class="col-lg-12 mb-1  mt-4">
+                                                                            <div class="form-check ps-0">
+
+                                                                                <div class="preference-name">
+                                                                                    <label class="form-check-label "
+                                                                                        for="distance">Comfort
+                                                                                        with
+                                                                                        Smoking:
+                                                                                    </label>
+                                                                                    <div class="preference-toolpit">
+                                                                                        Are
+                                                                                        you
+                                                                                        comfortable
+                                                                                        working
+                                                                                        in a
+                                                                                        smoking
+                                                                                        environment?
+                                                                                    </div>
+                                                                                    <div class="arrow-down"></div>
+                                                                                </div>
+
+                                                                                <div
+                                                                                    class="col-lg-12 d-flex flex-wrap  radio-button-row">
+
+                                                                                    <div class="check-button ">
+                                                                                        <label>
+                                                                                            <input type="radio" value=""
+                                                                                                name="smoking-comfort"><span>
+                                                                                                Comfortable</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                    <div class="check-button ">
+                                                                                        <label>
+                                                                                            <input type="radio" value=""
+                                                                                                name="smoking-comfort"><span>
+                                                                                                Uncomfortable</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                    <div class="check-button ">
+                                                                                        <label>
+                                                                                            <input type="radio" value=""
+                                                                                                name="smoking-comfort"><span>
+                                                                                                No
+                                                                                                Preference</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-12 mb-1 mt-4">
+
+                                                                            <div class="form-check ps-0">
+
+                                                                                <div class="preference-name">
+                                                                                    <label class="form-check-label "
+                                                                                        for="distance">Driving
+                                                                                        Duties:
+                                                                                    </label>
+                                                                                    <div class="preference-toolpit">
+                                                                                        Are
+                                                                                        you
+                                                                                        able
+                                                                                        to
+                                                                                        drive
+                                                                                        the
+                                                                                        patient
+                                                                                        as
+                                                                                        part
+                                                                                        of
+                                                                                        your
+                                                                                        duties?
+                                                                                    </div>
+                                                                                    <div class="arrow-down"></div>
+                                                                                </div>
+
+                                                                                <div
+                                                                                    class="col-lg-12 d-flex flex-wrap  radio-button-row">
+
+                                                                                    <div class="check-button ">
+                                                                                        <label>
+                                                                                            <input type="radio" value=""
+                                                                                                name="driving-duties"><span>
+                                                                                                Willing
+                                                                                                &
+                                                                                                able</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                    <div class="check-button ">
+                                                                                        <label>
+                                                                                            <input type="radio" value=""
+                                                                                                name="driving-duties"><span>
+                                                                                                Reluctant
+                                                                                                but
+                                                                                                possible</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                    <div class="check-button ">
+                                                                                        <label>
+                                                                                            <input type="radio" value=""
+                                                                                                name="driving-duties"><span>
+                                                                                                Unable
+                                                                                                to
+                                                                                                drive</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="col-lg-12 mb-1 mt-4">
+                                                                            <div class="form-check ps-0">
+
+                                                                                <div class="preference-name">
+                                                                                    <label class="form-check-label "
+                                                                                        for="distance">Preferred
+                                                                                        patient
+                                                                                        age
+                                                                                        groups
+                                                                                        (Select
+                                                                                        All
+                                                                                        that
+                                                                                        Apply):
+                                                                                    </label>
+
+                                                                                </div>
+
+                                                                                <div
+                                                                                    class="col-lg-12 d-flex flex-wrap  check-button-row">
+                                                                                    <div class="check-button">
+                                                                                        <label>
+                                                                                            <input type="checkbox"
+                                                                                                value=""><span>
+                                                                                                Geriartic</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                    <div class="check-button">
+                                                                                        <label>
+                                                                                            <input type="checkbox"
+                                                                                                value=""><span>
+                                                                                                Pediatric</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                    <div class="check-button">
+                                                                                        <label>
+                                                                                            <input type="checkbox"
+                                                                                                value=""><span>
+                                                                                                Adult</span>
+                                                                                        </label>
+                                                                                    </div>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-12">
+
+                                                                            <div class="preference-name mt-4">
+                                                                                <label class="form-check-label "
+                                                                                    for="distance">Are
+                                                                                    You
+                                                                                    comfortable
+                                                                                    working
+                                                                                    with
+                                                                                    patients
+                                                                                    with
+                                                                                    disablilites/disorders?:
+                                                                                </label>
+                                                                                <div class="preference-toolpit">
+                                                                                    Do you
+                                                                                    have
+                                                                                    experience
+                                                                                    with
+                                                                                    patients
+                                                                                    who have
+                                                                                    mental
+                                                                                    disabilities
+                                                                                    or
+                                                                                    disorders
+                                                                                </div>
+                                                                                <div class="arrow-down"></div>
+                                                                            </div>
+
+                                                                            <div
+                                                                                class="col-lg-12 d-flex flex-wrap  check-button-row">
+                                                                                <div class="check-button">
+                                                                                    <label>
+                                                                                        <input type="checkbox"
+                                                                                            value=""><span>
+                                                                                            Mental</span>
+                                                                                    </label>
+                                                                                </div>
+                                                                                <div class="check-button">
+                                                                                    <label>
+                                                                                        <input type="checkbox"
+                                                                                            value=""><span>
+                                                                                            Physical</span>
+                                                                                    </label>
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item w-100 mb-3">
+                                                        <h2 class="accordion-header w-100" id="headingTwo">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                                <div class="sub__title__container">
+                                                                    <h2>Languages</h2>
+                                                                </div>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                                            aria-labelledby="headingTwo"
+                                                            data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body">
+
+                                                                <div class="input__container">
+                                                                    <div class="row w-100">
+                                                                        <div class="col-lg-12">
+                                                                            <p class="form-check-label mb-2">Languages
+                                                                                (Check All
+                                                                                that
+                                                                                Apply):</p>
+                                                                        </div>
+                                                                        <div
+                                                                            class=" d-flex flex-wrap  check-button-row">
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        English
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Spanish
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Japanese
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+
+
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+
+                                                                                        Hindi
+
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+
+                                                                                        Romanian
+
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+
+
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+
+                                                                                        Chinese
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+
+                                                                        </div>
+
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="accordion-item w-100 mb-3">
+                                                        <h2 class="accordion-header w-100" id="headingfour">
+                                                            <button class="accordion-button collapsed" type="button"
+                                                                data-bs-toggle="collapse" data-bs-target="#collapsefour"
+                                                                aria-expanded="false" aria-controls="collapsefour">
+                                                                <div class="sub__title__container">
+                                                                    <h2>Availability</h2>
+                                                                </div>
+                                                            </button>
+                                                        </h2>
+                                                        <div id="collapsefour" class="accordion-collapse collapse"
+                                                            aria-labelledby="headingfour"
+                                                            data-bs-parent="#accordionExample">
+                                                            <div class="accordion-body">
+                                                                <div class="input__container">
+                                                                    <div class="row w-100">
+                                                                        <div class="col-lg-12">
+                                                                            <p class="form-check-label mb-2">
+                                                                                One more
+                                                                                criteria
+                                                                                before we
+                                                                                run the
+                                                                                “Smart
+                                                                                Match”.
+                                                                                Availability
+                                                                                (Check All
+                                                                                that Apply):
+                                                                            </p>
+                                                                        </div>
+                                                                        <div class="d-flex  flex-wrap check-button-row">
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Live
+                                                                                        In
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Weekend
+                                                                                        Warrior
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Overnight
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Part
+                                                                                        Time
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                            <div class="check-button">
+                                                                                <label>
+                                                                                    <input type="checkbox"
+                                                                                        value=""><span>
+                                                                                        Flexible
+                                                                                        Schedules
+                                                                                    </span>
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <button class="nxt__btn mt-lg-3 mt-2  ms-auto ">
+                                                    Apply</button>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="row">
+                                                    <div class="col-lg-12 mt-lg-3 mt-3">
+                                                        <div class="responsive-table">
+                                                            <table id="example" class="display" style="width:100%">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>
+                                                                            <input class="form-check-input mb-0  "
+                                                                                type="checkbox" value=""
+                                                                                id="selectAll" />
+                                                                        </th>
+                                                                        <th>Name</th>
+                                                                        <!-- <th>Message</th> -->
+                                                                        <th>Phone</th>
+                                                                        <th>Distance</th>
+                                                                        <th>Score</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td class="text-center ">
+                                                                            <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" />
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td class="text-center ">
+                                                                            <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" />
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td class="text-center ">
+                                                                            <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" />
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td class="text-center ">
+                                                                            <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" />
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td class="text-center ">
+                                                                            <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" />
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td> <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" /></td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+
+                                                                    <tr>
+                                                                        <td class="text-center ">
+                                                                            <input class="form-check-input mb-0 me-3"
+                                                                                type="checkbox" value="" id="" />
+                                                                        </td>
+                                                                        <td>
+                                                                            <button type="button" data-bs-toggle="modal"
+                                                                                data-bs-target="#detail-modal"
+                                                                                class="table-btn">Tiger
+                                                                                Nixon</button>
+                                                                        </td>
+                                                                        <!-- <td class="text-center ">
+                                                                            <button type="button" class="table-btn"
+                                                                                data-bs-toggle="modal"
+                                                                                data-bs-target="#exampleModal">
+                                                                                <i class="bi bi-envelope-fill"></i>
+                                                                            </button>
+                                                                        </td> -->
+                                                                        <td>215-193-4961</td>
+                                                                        <td>11</td>
+                                                                        <td>16</td>
+                                                                    </tr>
+                                                                </tbody>
+
+                                                            </table>
+                                                        </div>
+                                                        <button class="nxt__btn mt-lg-3 mt-2  ms-auto ">
+                                                            <i class="bi bi-envelope-fill text-white me-2"></i> Send
+                                                            Text to Selected</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </fieldset>
+
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fixed Footer -->
+    <footer class="fixed-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-center align-items-center ">
+                        Powerd By <img src="images/logo-powerd.webp" alt="" class="logo-powerd ms-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content px-4">
+                <div class="modal-header border-bottom-0 ">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex  justify-content-center align-items-center pb-3">
+
+                    <img src="images/flat-round-check-mark-green-600nw-652023034.webp" alt class="img-fluid mx-auto "
+                        width="130" height="130">
+                </div>
+                <h3 class="popup-heading text-center ">Thank You</h3>
+                <p class="text-center popup-text mb-4">
+                    Prompt Sent.
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="detail-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-dialog-lg">
+            <div class="modal-content px-2">
+                <div class="modal-header mb-0 pb-2">
+                    <h3 class="mb-0 pb-0">Details</h3>
+                    <div class="d-flex align-items-center ">
+                        <button type="button" class="table-btn me-3" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            <i class="bi bi-envelope-fill"></i>
+                        </button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                </div>
+                <div class="modal-body ">
+                    <div class="accordion w-100 mt-3" id="accordionExample2">
+                        <div class="accordion-item w-100 mb-3">
+                            <h2 class="accordion-header w-100" id="heading6">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                    <div class="sub__title__container">
+                                        <h2>Personal Information:</h2>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapse6" class="accordion-collapse collapse show" aria-labelledby="heading6"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <div class="input__container">
+                                        <div class="row w-100">
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    First Name
+                                                </h3>
+                                                <p class="modal-text">Jhon</p>
+                                            </div>
+
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    Last Name
+                                                </h3>
+                                                <p class="modal-text">Doe</p>
+                                            </div>
+
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    Gender
+                                                </h3>
+                                                <p class="modal-text">Male</p>
+                                            </div>
+
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    Email
+                                                </h3>
+                                                <p class="modal-text">jhondoe@gmail.com</p>
+                                            </div>
+
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    Phone
+                                                </h3>
+                                                <p class="modal-text">7623-2728-72827</p>
+                                            </div>
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    Zip
+                                                </h3>
+                                                <p class="modal-text">7868</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item w-100 mb-3">
+                            <h2 class="accordion-header w-100" id="heading9">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse9" aria-expanded="true" aria-controls="collapse9">
+                                    <div class="sub__title__container">
+                                        <h2>Roles and
+                                            Skills:</h2>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapse9" class="accordion-collapse collapse " aria-labelledby="heading9"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <div class="input__container">
+                                        <div class="row w-100">
+                                            <div class="col-lg-12">
+                                                <p class="form-check-label mb-1 modal-heading">Role
+
+                                                    interested
+                                                    in:
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-12 d-flex align-items-center flex-wrap ">
+                                                <div class="check-button check-button-modal ">
+                                                    <label class="me-4 modal-text">
+                                                        Personal
+                                                        Care
+                                                        Assistant
+                                                        (PCA/
+                                                        HCA)</span>
+                                                    </label>
+                                                </div>
+
+                                                <div class="check-button check-button-modal">
+                                                    <label class="me-4 modal-text">
+                                                        Home
+                                                        Health Aide
+                                                        (HHA)</span>
+                                                    </label>
+                                                </div>
+
+                                                <div class="check-button check-button-modal">
+                                                    <label class="me-4 modal-text">
+                                                        Certified
+                                                        Nursing
+                                                        Assistant
+                                                        (CNA)</span>
+                                                    </label>
+                                                </div>
+
+                                                <div class="check-button check-button-modal">
+                                                    <label class="me-4 modal-text">
+
+                                                        Registered
+                                                        Nurse (RN)</span>
+                                                    </label>
+                                                </div>
+
+
+                                            </div>
+
+
+                                            <div class="col-lg-12 mt-4">
+                                                <p class="form-check-label mb-1 modal-heading">Experience
+                                                    with
+                                                    specific
+                                                    conditions:</p>
+                                            </div>
+                                            <div class="col-lg-12 d-flex flex-wrap check-button-row">
+
+                                                <div class="check-button check-button-modal">
+                                                    <label class="me-4 modal-text">
+
+                                                        Parkinsons</span>
+                                                    </label>
+                                                </div>
+                                                <div class="check-button check-button-modal">
+                                                    <label class="me-4 modal-text">
+
+                                                        Alzheimers</span>
+                                                    </label>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-12 mt-4">
+                                                <p class="mb-0 form-check-label mb-1 modal-heading">Certifications
+                                                    completed:
+                                                </p>
+                                                <div class="col-lg-12 d-flex flex-wrap  radio-button-row">
+                                                    <div class="check-button check-button-modal">
+                                                        <label class="me-4">
+                                                            <span>Yes</span>
+                                                        </label>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item w-100 mb-3">
+                            <h2 class="accordion-header w-100" id="heading10">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                    <div class="sub__title__container">
+                                        <h2>Preferences </h2>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapse10" class="accordion-collapse collapse " aria-labelledby="heading10"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <div class="input__container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-check ps-0">
+                                                    <div class="preference-name">
+                                                        <label class="form-check-label modal-heading "
+                                                            for="distance">Travel
+                                                            Distance
+                                                            within:
+                                                        </label>
+
+                                                        <div class="arrow-down"></div>
+                                                    </div>
+                                                    <div class="col-lg-12 d-flex flex-wrap  radio-button-row">
+
+                                                        <div class="check-button check-button-modal">
+                                                            <label class="me-4 modal-text">
+                                                                <span> 2
+                                                                    mile</span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-6 mb-1 mt-md-0 mt-4">
+                                                <div class="form-check ps-0">
+
+                                                    <div class="preference-name">
+                                                        <label class="form-check-label modal-heading"
+                                                            for="distance">Comfort
+                                                            with
+                                                            Smoking:
+                                                        </label>
+
+                                                    </div>
+
+                                                    <div class="col-lg-12 d-flex flex-wrap  radio-button-row">
+
+                                                        <div class="check-button check-button-modal">
+                                                            <label class="me-4 modal-text ">
+                                                                <span>
+                                                                    Comfortable</span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 mb-1 mt-4">
+
+                                                <div class="form-check ps-0">
+
+                                                    <div class="preference-name">
+                                                        <label class="form-check-label modal-heading"
+                                                            for="distance">Driving
+                                                            Duties:
+                                                        </label>
+
+                                                    </div>
+
+                                                    <div class="col-lg-12 d-flex flex-wrap  radio-button-row">
+
+                                                        <div class="check-button check-button-modal">
+                                                            <label class="me-4 modal-text ">
+                                                                Willing
+                                                                &
+                                                                able</span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12 mb-1 mt-4">
+                                                <div class="form-check ps-0">
+
+                                                    <div class="preference-name">
+                                                        <label class="form-check-label modal-heading"
+                                                            for="distance">Preferred
+                                                            patient
+                                                            age
+                                                            groups
+                                                            :
+                                                        </label>
+
+                                                    </div>
+
+                                                    <div class="col-lg-12 d-flex flex-wrap  check-button-row">
+                                                        <div class="check-button check-button-modal">
+                                                            <label class="me-4 modal-text ">
+                                                                <span>
+                                                                    Geriartic</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="check-button check-button-modal">
+                                                            <label class="me-4 modal-text ">
+                                                                <span>
+                                                                    Pediatric</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="check-button check-button-modal">
+                                                            <label class="me-4 modal-text ">
+                                                                <span>
+                                                                    Adult</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+
+                                                <div class="preference-name mt-4">
+                                                    <label class="form-check-label modal-heading" for="distance">
+
+                                                        comfortable
+                                                        working
+                                                        with
+                                                        patients
+                                                        with
+                                                        disablilites/disorders:
+                                                    </label>
+
+                                                </div>
+
+                                                <div class="col-lg-12 d-flex flex-wrap  check-button-row">
+                                                    <div class="check-button check-button-modal">
+                                                        <label class="modal-text me-4 ">
+                                                            <span>
+                                                                Mental</span>
+                                                        </label>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item w-100 mb-3">
+                            <h2 class="accordion-header w-100" id="heading11">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                    <div class="sub__title__container">
+                                        <h2>Languages</h2>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+
+                                    <div class="input__container">
+                                        <div class="row w-100">
+                                            <div class="col-lg-12">
+                                                <p class="form-check-label mb-2 modal-heading">Languages
+                                                </p>
+                                            </div>
+                                            <div class=" d-flex flex-wrap  check-button-row">
+                                                <div class="check-button check-button-modal">
+                                                    <label class="me-4 modal-text"><span>
+                                                            English
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="check-button check-button-modal">
+                                                    <label class="me-4 modal-text"><span>
+                                                            Spanish
+                                                        </span>
+                                                    </label>
+                                                </div>
+
+
+
+
+
+
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item w-100 mb-3">
+                            <h2 class="accordion-header w-100" id="heading12">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                    <div class="sub__title__container">
+                                        <h2>Availability</h2>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12"
+                                data-bs-parent="#accordionExample2">
+                                <div class="accordion-body">
+                                    <div class="input__container">
+                                        <div class="row w-100">
+
+                                            <div class="d-flex  flex-wrap check-button-row">
+
+                                                <div class="check-button check-button-modal">
+                                                    <label>
+                                                        <span class="me-4 modal-text">
+                                                            Weekend
+                                                            Warrior
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="check-button check-button-modal">
+                                                    <label>
+                                                        <span class="me-4 modal-text">
+                                                            Overnight
+                                                        </span>
+                                                    </label>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="app.js"></script>
+    <script>
+
+        $('#example').dataTable({
+            "bInfo": false, //Dont display info e.g. "Showing 1 to 4 of 4 entries"
+            "paging": false,//Dont want paging                
+            "bPaginate": false,//Dont want paging      
+        })
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const selectAllCheckbox = document.getElementById("selectAll");
+            const otherCheckboxes = document.querySelectorAll("tbody input[type='checkbox']");
+
+            selectAllCheckbox.addEventListener("change", function () {
+                otherCheckboxes.forEach(function (checkbox) {
+                    checkbox.checked = selectAllCheckbox.checked;
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>

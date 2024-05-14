@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Roles Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.css">
+    <!-- CSS CDN -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="form__container">
+                    <!-- title -->
+                    <div class="title__container  ">
+                        <div class="d-flex justify-content-between flex-md-row flex-column align-items-center  ">
+                            <div class="order-md-1 order-2 text-md-start text-center  ">
+                                <h1 class="mb-0 pb-0">Roles</h1>
+
+                            </div>
+                            <div class="order-md-2 order-1 mb-md-2 mb-4 d-flex justify-content-center ">
+                                <img src="images/logo-powerd.webp" alt="" class="img-fluid logo-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__container">
+                        <form action="" class="w-100">
+                            <div class="right__container ">
+                                <!-- personal info -->
+                                <fieldset id="form1" class="w-100">
+                                    <div class="sub__title__container mt-3">
+                                        <h2 class="mb-3">Search Roles</h2>
+                                    </div>
+
+                                    <div class="input__container w-100">
+                                        <div class="row justify-content-evenly ">
+                                            <div class="col-lg-3">
+                                                <label for="office">Office</label><br>
+                                                <select class="form-select " name="" id="">
+                                                    <option selected>Select Office</option>
+                                                    <option value="All">All</option>
+                                                    <option value="Office1">Office1</option>
+                                                    <option value="Office2">Office2</option>
+                                                    <option value="Office3">Office3</option>
+                                                    <option value="Office4">Office4</option>
+                                                    <option value="Office5">Office5</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <label for="Owner">Owner</label><br>
+                                                <select class="form-select " name="" id="">
+                                                    <option selected>Select Owner</option>
+                                                    <option value="All">All</option>
+                                                    <option value="Jones">Jones</option>
+                                                    <option value="Smith">Smith</option>
+                                                    <option value="Wilson">Wilson</option>
+                                                    <option value="Anderson">Anderson</option>
+                                                    <option value="Garcia">Garcia</option>
+                                                    <option value="Patel">Patel</option>
+                                                    <option value="Miller">Miller</option>
+                                                    <option value="Johnson">Johnson</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-3">
+                                                <label for="Owner">Role Type</label><br>
+                                                <select class="form-select " name="" id="">
+                                                    <option selected>Select Role</option>
+                                                    <option value="All">All</option>
+                                                    <option value="Jones">Role 1</option>
+                                                    <option value="Smith">Role 2</option>
+                                                    <option value="Wilson">Role 3</option>
+
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-3 pt-lg-2 mx-auto ">
+                                                <button class="nxt__btn mt-lg-3 mt-2 ms-lg-0 ms-auto "> <i
+                                                        class="bi bi-search me-2 text-white "></i> Search</button>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12 mt-lg-2 mt-3">
+                                                <div class="responsive-table">
+                                                    <table id="example" class="display" style="width:100%">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>
+                                                                    View
+                                                                </th>
+                                                                <th>Office</th>
+                                                                <th>Owner</th>
+                                                                <th>Role</th>
+                                                                <th>Title</th>
+                                                                <th>Zip</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="role-detail.html"><i
+                                                                            href="role-detail.html"><i
+                                                                                class="bi bi-eye-fill me-2"></i></a>
+                                                                </td>
+                                                                <td>Office 1</td>
+                                                                <td>Role 1</td>
+                                                                <td>
+                                                                    Tiger Nixon
+                                                                </td>
+                                                                <td class="text-center ">
+                                                                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                                    elit.
+                                                                </td>
+                                                                <td>2161</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="role-detail.html"><i
+                                                                            href="role-detail.html"><i
+                                                                                class="bi bi-eye-fill me-2"></i></a>
+                                                                </td>
+                                                                <td>Office 2</td>
+                                                                <td>Role 2</td>
+                                                                <td>
+                                                                    Jhon Doe
+                                                                </td>
+                                                                <td class="text-center ">
+                                                                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                                    elit. 
+                                                                </td>
+                                                                <td>2161</td>
+                                                            </tr>
+
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="role-detail.html"><i
+                                                                            href="role-detail.html"><i
+                                                                                class="bi bi-eye-fill me-2"></i></a>
+                                                                </td>
+                                                                <td>Office 3</td>
+                                                                <td>Role 3</td>
+                                                                <td>
+                                                                    Smith Smith
+                                                                </td>
+                                                                <td class="text-center ">
+                                                                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                                    elit.
+                                                                </td>
+                                                                <td>2161</td>
+                                                            </tr>
+                                                     
+                                                            <tr>
+                                                                <td>
+                                                                    <a href="role-detail.html"><i
+                                                                            href="role-detail.html"><i
+                                                                                class="bi bi-eye-fill me-2"></i></a>
+                                                                </td>
+                                                                <td>Office 4</td>
+                                                                <td>Role 4</td>
+                                                                <td>
+                                                                  Williamson Smith
+                                                                </td>
+                                                                <td class="text-center ">
+                                                                    Lorem ipsum dolor sit, amet consectetur adipisicing
+                                                                    elit.
+                                                                </td>
+                                                                <td>2161</td>
+                                                            </tr>
+                                                        </tbody>
+
+                                                    </table>
+                                                </div>
+                                          
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </fieldset>
+
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fixed Footer -->
+    <footer class="fixed-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-center align-items-center ">
+                        Powerd By <img src="images/logo-powerd.webp" alt="" class="logo-powerd ms-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered ">
+            <div class="modal-content px-4">
+                <div class="modal-header border-bottom-0 ">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex  justify-content-center align-items-center pb-3">
+
+                    <img src="images/flat-round-check-mark-green-600nw-652023034.webp" alt class="img-fluid mx-auto "
+                        width="130" height="130">
+                </div>
+                <h3 class="popup-heading text-center ">Thank You</h3>
+                <p class="text-center popup-text mb-4">
+                    Prompt Sent.
+                </p>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="detail-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-dialog-lg">
+            <div class="modal-content px-2">
+                <div class="modal-header mb-0 pb-2">
+                    <h3 class="mb-0 pb-0">Details</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body ">
+                    <div class="accordion w-100 mt-3" id="accordionExample">
+                        <div class="accordion-item w-100 mb-3">
+                            <h2 class="accordion-header w-100" id="heading6">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
+                                    <div class="sub__title__container">
+                                        <h2>Personal Information:</h2>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapse6" class="accordion-collapse collapse show" aria-labelledby="heading6"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="input__container">
+                                        <div class="row w-100">
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    First Name
+                                                </h3>
+                                                <p class="modal-text">Jhon</p>
+                                            </div>
+
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    Last Name
+                                                </h3>
+                                                <p class="modal-text">Doe</p>
+                                            </div>
+
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    Gender
+                                                </h3>
+                                                <p class="modal-text">Male</p>
+                                            </div>
+
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    Email
+                                                </h3>
+                                                <p class="modal-text">jhondoe@gmail.com</p>
+                                            </div>
+
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    Phone
+                                                </h3>
+                                                <p class="modal-text">7623-2728-72827</p>
+                                            </div>
+                                            <div class="col-lg-4 mt-3">
+                                                <h3 class="modal-heading mb-1">
+                                                    Zip
+                                                </h3>
+                                                <p class="modal-text">7868</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item w-100 mb-3">
+                            <h2 class="accordion-header w-100" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                    <div class="sub__title__container">
+                                        <h2>Roles and
+                                            Skills:</h2>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse " aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="input__container">
+                                        <div class="row w-100">
+                                            <div class="col-lg-12">
+                                                <p class="form-check-label mb-1 modal-heading">Role
+
+                                                    interested
+                                                    in:
+                                                </p>
+                                            </div>
+                                            <div class="col-lg-12 d-flex align-items-center flex-wrap ">
+                                                <div class="check-button">
+                                                    <label class="me-4 modal-text">
+                                                        Personal
+                                                        Care
+                                                        Assistant
+                                                        (PCA/
+                                                        HCA)</span>
+                                                    </label>
+                                                </div>
+
+                                                <div class="check-button">
+                                                    <label class="me-4 modal-text">
+                                                        Home
+                                                        Health Aide
+                                                        (HHA)</span>
+                                                    </label>
+                                                </div>
+
+                                                <div class="check-button ">
+                                                    <label class="me-4 modal-text">
+                                                        Certified
+                                                        Nursing
+                                                        Assistant
+                                                        (CNA)</span>
+                                                    </label>
+                                                </div>
+
+                                                <div class="check-button">
+                                                    <label class="me-4 modal-text">
+
+                                                        Registered
+                                                        Nurse (RN)</span>
+                                                    </label>
+                                                </div>
+
+
+                                            </div>
+
+
+                                            <div class="col-lg-12 mt-4">
+                                                <p class="form-check-label mb-1 modal-heading">Experience
+                                                    with
+                                                    specific
+                                                    conditions:</p>
+                                            </div>
+                                            <div class="col-lg-12 d-flex flex-wrap check-button-row">
+
+                                                <div class="check-button">
+                                                    <label class="me-4 modal-text">
+
+                                                        Parkinsons</span>
+                                                    </label>
+                                                </div>
+                                                <div class="check-button">
+                                                    <label class="me-4 modal-text">
+
+                                                        Alzheimers</span>
+                                                    </label>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="col-lg-12 mt-4">
+                                                <p class="mb-0 form-check-label mb-1 modal-heading">Certifications
+                                                    completed:
+                                                </p>
+                                                <div class="col-lg-12 d-flex flex-wrap  radio-button-row">
+                                                    <div class="check-button ">
+                                                        <label class="me-4">
+                                                            <span>Yes</span>
+                                                        </label>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item w-100 mb-3">
+                            <h2 class="accordion-header w-100" id="headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                    <div class="sub__title__container">
+                                        <h2>Preferences </h2>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="input__container">
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <div class="form-check ps-0">
+                                                    <div class="preference-name">
+                                                        <label class="form-check-label modal-heading "
+                                                            for="distance">Travel
+                                                            Distance
+                                                            within:
+                                                        </label>
+
+                                                        <div class="arrow-down"></div>
+                                                    </div>
+                                                    <div class="col-lg-12 d-flex flex-wrap  radio-button-row">
+
+                                                        <div class="check-button ">
+                                                            <label class="me-4 modal-text">
+                                                                <span> 2
+                                                                    mile</span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="col-lg-6 mb-1 mt-md-0 mt-4">
+                                                <div class="form-check ps-0">
+
+                                                    <div class="preference-name">
+                                                        <label class="form-check-label modal-heading"
+                                                            for="distance">Comfort
+                                                            with
+                                                            Smoking:
+                                                        </label>
+
+                                                    </div>
+
+                                                    <div class="col-lg-12 d-flex flex-wrap  radio-button-row">
+
+                                                        <div class="check-button ">
+                                                            <label class="me-4 modal-text">
+                                                                <span>
+                                                                    Comfortable</span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 mb-1 mt-4">
+
+                                                <div class="form-check ps-0">
+
+                                                    <div class="preference-name">
+                                                        <label class="form-check-label modal-heading"
+                                                            for="distance">Driving
+                                                            Duties:
+                                                        </label>
+
+                                                    </div>
+
+                                                    <div class="col-lg-12 d-flex flex-wrap  radio-button-row">
+
+                                                        <div class="check-button ">
+                                                            <label class="me-4 modal-text">
+                                                                Willing
+                                                                &
+                                                                able</span>
+                                                            </label>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-12 mb-1 mt-4">
+                                                <div class="form-check ps-0">
+
+                                                    <div class="preference-name">
+                                                        <label class="form-check-label modal-heading"
+                                                            for="distance">Preferred
+                                                            patient
+                                                            age
+                                                            groups
+                                                            :
+                                                        </label>
+
+                                                    </div>
+
+                                                    <div class="col-lg-12 d-flex flex-wrap  check-button-row">
+                                                        <div class="check-button">
+                                                            <label class="me-4 modal-text">
+                                                                <span>
+                                                                    Geriartic</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="check-button">
+                                                            <label class="me-4 modal-text">
+                                                                <span>
+                                                                    Pediatric</span>
+                                                            </label>
+                                                        </div>
+                                                        <div class="check-button">
+                                                            <label class="me-4 modal-text">
+                                                                <span>
+                                                                    Adult</span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+
+                                                <div class="preference-name mt-4">
+                                                    <label class="form-check-label modal-heading" for="distance">
+
+                                                        comfortable
+                                                        working
+                                                        with
+                                                        patients
+                                                        with
+                                                        disablilites/disorders:
+                                                    </label>
+
+                                                </div>
+
+                                                <div class="col-lg-12 d-flex flex-wrap  check-button-row">
+                                                    <div class="check-button">
+                                                        <label class="modal-text me-4">
+                                                            <span>
+                                                                Mental</span>
+                                                        </label>
+                                                    </div>
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item w-100 mb-3">
+                            <h2 class="accordion-header w-100" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="sub__title__container">
+                                        <h2>Languages</h2>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+
+                                    <div class="input__container">
+                                        <div class="row w-100">
+                                            <div class="col-lg-12">
+                                                <p class="form-check-label mb-2 modal-heading">Languages
+                                                </p>
+                                            </div>
+                                            <div class=" d-flex flex-wrap  check-button-row">
+                                                <div class="check-button">
+                                                    <label class="me-4 modal-text"><span>
+                                                            English
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="check-button">
+                                                    <label class="me-4 modal-text"><span>
+                                                            Spanish
+                                                        </span>
+                                                    </label>
+                                                </div>
+
+
+
+
+
+
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item w-100 mb-3">
+                            <h2 class="accordion-header w-100" id="headingfour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    <div class="sub__title__container">
+                                        <h2>Availability</h2>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <div class="input__container">
+                                        <div class="row w-100">
+
+                                            <div class="d-flex  flex-wrap check-button-row">
+
+                                                <div class="check-button">
+                                                    <label>
+                                                        <span class="me-4 modal-text">
+                                                            Weekend
+                                                            Warrior
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                                <div class="check-button">
+                                                    <label>
+                                                        <span class="me-4 modal-text">
+                                                            Overnight
+                                                        </span>
+                                                    </label>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="app.js"></script>
+    <script>
+        new DataTable('#example');
+    </script>
+
+
+</body>
+
+</html>
