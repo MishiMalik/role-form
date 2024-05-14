@@ -874,10 +874,13 @@ div.dt-container .dt-paging .dt-paging-button{
 }
 .responsive-table{
     overflow-x: auto;
-  
+    height: 70vh;
+    overflow-y: scroll;
+    /* padding-bottom: 10px; */
 }
 .responsive-table::-webkit-scrollbar {
     height: 7px;
+    width: 5px;
   }
    
  
