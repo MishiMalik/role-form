@@ -10,7 +10,7 @@
 :root {
     /* --primary-color: #D5242F; */
     --primary-color:#4A79EF;
-    --secondery-color: #028429;
+    --secondery-color: #1b59f5;
     --secondery-color2: #038029;
     --shadow-color: #9d9fb3;
 }
@@ -898,6 +898,10 @@ div.dt-container .dt-paging .dt-paging-button{
     font-size: 16px !important;
     font-weight: 500 !important;
     color: black !important;
+}
+.modal-text img{
+    height: 18px;
+    width: 18px;
 }
 @media only screen and (max-width: 768px) {
     body {
