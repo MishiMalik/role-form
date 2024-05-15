@@ -9,7 +9,7 @@
 
 :root {
     /* --primary-color: #D5242F; */
-    --primary-color:#4A79EF;
+    --primary-color: #4A79EF;
     --secondery-color: #1b59f5;
     --secondery-color2: #038029;
     --shadow-color: #9d9fb3;
@@ -20,7 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #f8f9fa;
-    padding:10px 0px;
+    padding: 10px 0px;
     min-height: 101vh;
     padding-bottom: 70px;
 }
@@ -280,15 +280,18 @@ hr {
     background-color: transparent;
     border: 1px solid rgb(167, 165, 165);
 }
+
 .form-select:active,
-.form-select:focus{
+.form-select:focus {
     outline: none !important;
     box-shadow: none !important;
 }
+
 .form-select option {
 
     color: black !important;
 }
+
 textarea,
 .input__container input {
 
@@ -393,24 +396,29 @@ textarea,
     margin: 1px !important;
     /* font-size: 12px !important; */
 }
-.check-button-modal{
+
+.check-button-modal {
     padding: 5px 10px;
     margin-left: 0px !important;
 }
-.check-button-modal label{
+
+.check-button-modal label {
     margin-right: 0px !important;
     color: black;
 }
-.check-button-modal label span{
+
+.check-button-modal label span {
     padding: 0px !important;
     margin-right: 0px !important;
     color: black;
 }
+
 .selected-radio,
 .selected-check {
     background-color: var(--secondery-color2) !important;
     color: white;
 }
+
 .form-check-label {
     font-size: 14px;
 }
@@ -433,10 +441,12 @@ table.paleBlueRows {
     color: black;
 
 }
-.thumb-btn{
+
+.thumb-btn {
     background-color: transparent !important;
     font-size: 26px !important;
 }
+
 .check-button label {
     float: left;
 
@@ -451,10 +461,11 @@ table.paleBlueRows {
     font-size: 14px;
     color: black;
 }
-.thumb-btn label span{
+
+.thumb-btn label span {
     font-size: 26px !important;
     color: gray !important;
-    padding: 0px  3px!important;
+    padding: 0px 3px !important;
     line-height: 14px;
 }
 
@@ -478,14 +489,17 @@ table.paleBlueRows {
     text-shadow: 0 0 6px rgba(0, 0, 0, 0.8);
     background-color: var(--secondery-color2);
 }
-.thumb-up input:checked+span{
+
+.thumb-up input:checked+span {
     color: var(--secondery-color2) !important;
     background-color: transparent !important;
 }
-.thumb-down input:checked+span{
+
+.thumb-down input:checked+span {
     color: var(--primary-color) !important;
     background-color: transparent !important;
 }
+
 table.paleBlueRows td,
 table.paleBlueRows th {
     border: 1px solid rgb(228, 225, 225);
@@ -679,7 +693,8 @@ table.paleBlueRows tfoot td {
     background-color: var(--primary-color);
     border-radius: 4px;
 }
-.matching-card{
+
+.matching-card {
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 15px 20px 20px 15px;
@@ -687,12 +702,13 @@ table.paleBlueRows tfoot td {
     position: relative;
 }
 
-.matching-card  span{
+.matching-card span {
     font-size: 18px;
     font-weight: 600;
     color: var(--primary-color);
 }
-.matching-card  button{
+
+.matching-card button {
     font-size: 18px;
     font-weight: 500;
     color: black;
@@ -700,21 +716,25 @@ table.paleBlueRows tfoot td {
     text-decoration: underline;
     border: none;
     background-color: transparent;
-    color:black;
+    color: black;
     text-align: left;
 }
-.matching-card  button:hover{
+
+.matching-card button:hover {
     color: var(--primary-color);
 }
-.matching-card-text span{
+
+.matching-card-text span {
     font-weight: 500;
     font-size: 16px;
-    color: black ;
+    color: black;
 }
-.matching-card-text{
+
+.matching-card-text {
     font-size: 16px;
     font-weight: 400;
 }
+
 /*-------------------------------------- form-4 design----------------------------------------- */
 .slider {
     display: flex;
@@ -822,63 +842,84 @@ table.paleBlueRows tfoot td {
     background-color: var(--secondery-color2);
     border-radius: 4px;
 }
+
 .responsive-table2,
-.responsive-table{
+.responsive-table {
     background-color: #F8F9FA;
     padding: 0px 0px 10px 10px;
     border-radius: 10px;
 }
+
 .dt-length,
-.dt-search{
+.dt-search {
     display: none !important;
 }
+
 table.dataTable.display tbody tr.odd {
     background-color: transparent !important;
 }
+
 table.dataTable.display tbody tr.even {
     background-color: transparent !important;
 }
-table.dataTable.stripe > tbody > tr:nth-child(odd) > *, table.dataTable.display > tbody > tr:nth-child(odd) > *{
+
+table.dataTable.stripe>tbody>tr:nth-child(odd)>*,
+table.dataTable.display>tbody>tr:nth-child(odd)>* {
     box-shadow: none !important;
 }
-table.dataTable.order-column > tbody tr > .sorting_1, table.dataTable.order-column > tbody tr > .sorting_2, table.dataTable.order-column > tbody tr > .sorting_3, table.dataTable.display > tbody tr > .sorting_1, table.dataTable.display > tbody tr > .sorting_2, table.dataTable.display > tbody tr > .sorting_3{
+
+table.dataTable.order-column>tbody tr>.sorting_1,
+table.dataTable.order-column>tbody tr>.sorting_2,
+table.dataTable.order-column>tbody tr>.sorting_3,
+table.dataTable.display>tbody tr>.sorting_1,
+table.dataTable.display>tbody tr>.sorting_2,
+table.dataTable.display>tbody tr>.sorting_3 {
     box-shadow: none !important;
 }
-td{
+
+td {
     font-size: 14px;
     line-height: 27px;
     text-align: center !important;
- 
+
 }
-th{
+
+th {
     font-weight: 600 !important;
     text-align: center !important;
-  
+
 }
-.table-btn{
+
+.table-btn {
     background-color: transparent;
     border: none;
     padding: 0;
     text-decoration: underline;
 }
-.bi-envelope-fill{
+
+.bi-envelope-fill {
     font-size: 22px;
     color: var(--primary-color);
 }
-div.dt-container .dt-paging .dt-paging-button.current, div.dt-container .dt-paging .dt-paging-button.current:hover{
+
+div.dt-container .dt-paging .dt-paging-button.current,
+div.dt-container .dt-paging .dt-paging-button.current:hover {
     background-color: var(--primary-color) !important;
     color: white !important;
 }
-div.dt-container .dt-paging .dt-paging-button{
+
+div.dt-container .dt-paging .dt-paging-button {
     padding: 3px 12px !important;
     font-size: 14px !important;
 }
-.responsive-table2{
+
+.responsive-table2 {
     overflow-x: auto;
     overflow-y: auto;
     max-height: 350px;
 }
-.responsive-table{
+
+.responsive-table {
     overflow-x: auto;
     /* max-height: 500px; */
     overflow-y: auto;
@@ -889,43 +930,56 @@ div.dt-container .dt-paging .dt-paging-button{
 div.dt-container.dt-empty-footer .dt-scroll-body::-webkit-scrollbar {
     height: 7px;
     width: 5px;
-  }
-   
-  /* .responsive-table2::-webkit-scrollbar-thumb, */
-  div.dt-container.dt-empty-footer .dt-scroll-body::-webkit-scrollbar-thumb {
+}
+
+/* .responsive-table2::-webkit-scrollbar-thumb, */
+div.dt-container.dt-empty-footer .dt-scroll-body::-webkit-scrollbar-thumb {
     background-color: var(--primary-color);
-  }
-.responsive-table table{
+}
+
+.responsive-table table {
     width: 100%;
     min-width: 480px;
 }
+
 textarea::-webkit-scrollbar {
     height: 7px;
     width: 5px;
-  }
-   
-  textarea::-webkit-scrollbar-thumb {
+}
+
+textarea::-webkit-scrollbar-thumb {
     background-color: var(--primary-color);
-  }
-.role-detail label{
-     width: 100px;
-} 
-.modal-text{
+}
+
+.role-detail label {
+    width: 100px;
+}
+
+.modal-text {
     font-size: 14px !important;
 }
-.modal-heading{
+
+.modal-heading {
     font-size: 16px !important;
     font-weight: 500 !important;
     color: black !important;
 }
-.modal-text img{
+
+.modal-text img {
     height: 18px;
     width: 18px;
 }
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
     width: 95% !important;
     max-width: 95% !important;
 }
+
 @media only screen and (max-width: 768px) {
     body {
         padding: 20px 0;
@@ -1086,31 +1140,36 @@ textarea::-webkit-scrollbar {
     .progress__bar__container ul .active::before {
         transform: rotate(90deg);
     }
-    .matching-card{
+
+    .matching-card {
         padding-bottom: 50px;
     }
-    .like-dislike{
+
+    .like-dislike {
         position: absolute;
         bottom: 15px;
         right: 20px;
 
     }
 
-    
-.matching-card  span{
-    font-size: 16px;
-}
-.matching-card  button{
-    font-size: 16px;
-}
 
-.matching-card-text span{
-    font-size: 14px;
-}
-.matching-card-text{
-    font-size: 14px;
-}
-.pop-text{
-    font-size: 14px;
-}
+    .matching-card span {
+        font-size: 16px;
+    }
+
+    .matching-card button {
+        font-size: 16px;
+    }
+
+    .matching-card-text span {
+        font-size: 14px;
+    }
+
+    .matching-card-text {
+        font-size: 14px;
+    }
+
+    .pop-text {
+        font-size: 14px;
+    }
 }
