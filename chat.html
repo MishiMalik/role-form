@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="https://emoji-css.afeld.me/emoji.css">
     <!-- CSS CDN -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="chat.css">
+    <link rel="stylesheet" href="chat2.css">
 </head>
 
 <body>
@@ -47,65 +47,29 @@
                     <div class="body__container">
                         <form action="" class="w-100">
                             <div class="right__container ">
-
-                                <div class="chat__screen  p-0">
-
-                                    <!-- chat body -->
-                                    <div class="chat__screen-chats chat__screen-body chats-msgs">
-                                        <!-- <div class="chat__screen-chats--header mb-0">
-                                            <div class="d-flex justify-content-between w-100 align-items-center">
-                                                <div class="d-flex align-items-center open-chat-header">
-                                                    <div class="go-back">
-                                                        <i class="bi bi-arrow-left-short text-primary f-36 me-1"></i>
-                                                    </div>
-                                                    <div class="open-chat-header-img ">
-                                                        <img src="images/Asset 2 (1).png" alt="">
-                                                    </div>
-                                                    <div class="open-chat-header-text ms-2 ps-1">
-                                                        <div class=" ">
-                                                            <h2 class="mb-0 pb-0 mt-2">Jhon Doe</h2>
-                                                            <span class="f-12 text-success mb-0 pb-0">Active</span>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                                <div class="d-flex align-items-center">
-                                                    <i class="fa-solid fa-circle-check f-30 text-success"></i>
-                                                    <i class="fa-solid fa-file-lines text-gray f-26 ms-3 text-dark-clr"
-                                                        id="documents-btn"></i>
-                                                </div>
-                                            </div>
-                                        </div> -->
-                                        <div class="chat__screen-chats-wrapper " style="overflow-y: hidden;">
-                                            <div class="chat__screen-chats-wrapper--body chat__screen-body-msgs">
-                                                <div class="chat-date mt-2">
-                                                    Wednesday, February 5th
-                                                </div>
+                               
+                                        <div class="chat__screen-wrapper " style="overflow-y: hidden;">
+                                            <div class="chat__screen-wrapper--body chat__screen-body-msgs" id="chat-body">
                                                 <!-- msg recived -->
                                                 <div class="recieved-msg">
                                                     <div class="recieved-msg-data">
-                                                        <img src="assets/images/vatar.png" alt=""
+                                                        <img src="images/vatar-removebg-preview.png" alt=""
                                                             class="recieved-msg-data-img">
-                                                        <h2 class="mb-0 pb-0 ms-2">Jhon Doe</h2>
+                                                        <h2 class="mb-0 pb-0 ms-2">Benny</h2>
                                                         <span class="ms-2">3:21 PM</span>
                                                     </div>
                                                     <div class="recieved-msg-text">
                                                         <p class="mb-0 pb-0">
-                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                                                            do
-                                                            eiusmod
-                                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                                                            ad minim
-                                                            veniam,
-                                                            quis.
+                                                           Hi!
+                                                           We are Here to  Help You!
                                                         </p>
                                                     </div>
                                                 </div>
                                                 <!-- msg sent -->
-                                                <div class="sent-msg">
+                                                <!-- <div class="sent-msg">
                                                     <div class="sent-msg-data">
-                                                        <img src="assets/images/vatar.png" alt=""
-                                                            class="sent-msg-data-img">
+                                                        <img src="images/vatar-removebg-preview.png" alt=""
+                                                            class="recieved-msg-data-img">
                                                         <h2 class="mb-0 pb-0 ms-2">AB Divilar</h2>
                                                         <span class="ms-2">3:21 PM</span>
                                                     </div>
@@ -121,13 +85,13 @@
                                                             quis.
                                                         </p>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                                 <!-- msg recived -->
-                                                <div class="recieved-msg">
+                                                <!-- <div class="recieved-msg">
                                                     <div class="recieved-msg-data">
-                                                        <img src="assets/images/vatar.png" alt=""
-                                                            class="recieved-msg-data-img">
-                                                        <h2 class="mb-0 pb-0 ms-2">Jhon Doe</h2>
+                                                        <img src="images/vatar-removebg-preview.png" alt=""
+                                                        class="recieved-msg-data-img">
+                                                        <h2 class="mb-0 pb-0 ms-2">Benny</h2>
                                                         <span class="ms-2">3:21 PM</span>
                                                     </div>
                                                     <div class="recieved-msg-text">
@@ -135,122 +99,42 @@
                                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                                         </p>
                                                     </div>
-                                                    <div class="recieved-msg-text">
-                                                        <p class="mb-0 pb-0">
-                                                            Lorem ipsum dolor sit.
-                                                        </p>
-                                                    </div>
-                                                    <div class="recieved-msg-text">
-                                                        <p class="mb-0 pb-0">
-                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                            Dolorem
-                                                            itaque
-                                                            voluptatem incidunt similique tempore sit commodi nemo?
-                                                            Eaque, non
-                                                            nulla!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                                <!-- msg recived -->
-                                                <!-- <div class="recieved-msg">
-                                                    <div class="recieved-msg-data">
-                                                        <img src="assets/images/vatar.png" alt=""
-                                                            class="recieved-msg-data-img">
-                                                        <h2 class="mb-0 pb-0 ms-2">Jhon Doe</h2>
-                                                        <span class="ms-2">3:21 PM</span>
+                                                   
+                                                </div> -->
+
+                                                <div class="text-options">
+                                                     <div class="option">
+                                                        <a href="chat3.html">Health Insurance Plan and their costs</a>
+                                                     </div>
+
+                                                     <div class="option">
+                                                        <a href="chat4.html">Retirement benefits </a>
+                                                     </div>
+
+                                                     <div class="option">
+                                                        <a href="chat5.html">Paid time off</a>
+                                                     </div>
+
+                                                     <div class="option">
+                                                        <a href="chat6.html">Mileage reimbursements</a>
+                                                     </div>
+
+
+                                                     <div class="option" id="other-option">
+                                                        Other
                                                     </div>
 
-                                                    <div class="recieved-msg-text">
-                                                        <img src="assets/images/6.jpg" alt="">
-                                                    </div>
-                                                </div> -->
-                                                <!-- date -->
-                                                <!-- <div class="chat-date mt-4">
-                                                    Wednesday, February 5th
-                                                </div> -->
-                                                <!-- msg sent -->
-                                                <!-- <div class="sent-msg">
-                                                    <div class="sent-msg-data">
-                                                        <img src="assets/images/vatar.png" alt=""
-                                                            class="sent-msg-data-img">
-                                                        <h2 class="mb-0 pb-0 ms-2">AB Divilar</h2>
-                                                        <span class="ms-2">3:21 PM</span>
-                                                    </div>
-                                                    <div class="sent-msg-text">
-                                                        <p class="mb-0 pb-0">
-                                                        <div class="recieved-msg-text">
-                                                            <img src="assets/images/2.jpg" alt="">
-                                                        </div>
-                                                        </p>
-                                                    </div>
-                                                </div> -->
-                                                <!-- msg recived -->
-                                                <div class="recieved-msg">
-                                                    <div class="recieved-msg-data">
-                                                        <img src="assets/images/vatar.png" alt=""
-                                                            class="recieved-msg-data-img">
-                                                        <h2 class="mb-0 pb-0 ms-2">Jhon Doe</h2>
-                                                        <span class="ms-2">3:21 PM</span>
-                                                    </div>
-                                                    <div class="recieved-msg-text">
-                                                        <p class="mb-0 pb-0">
-                                                            OK
-                                                        </p>
-                                                    </div>
                                                 </div>
-                                                <!-- msg sent -->
-                                                <!-- <div class="sent-msg">
-                                                    <div class="sent-msg-data">
-                                                        <img src="assets/images/vatar.png" alt=""
-                                                            class="sent-msg-data-img">
-                                                        <h2 class="mb-0 pb-0 ms-2">AB Divilar</h2>
-                                                        <span class="ms-2">3:21 PM</span>
-                                                    </div>
-                                                    <div class="sent-msg-text">
-                                                        <div class="recieved-msg-text">
-                                                            <video controls>
-                                                                <source src="assets/images/big_buck_bunny_720p_1mb.mp4"
-                                                                    type="video/mp4">
-                                                                Your browser does not support the video tag.
-                                                            </video>
-                                                        </div>
-                                                    </div>
-                                                </div> -->
-                                                <!-- msg recived -->
-                                                <!-- <div class="recieved-msg">
-                                                    <div class="recieved-msg-data">
-                                                        <img src="assets/images/vatar.png" alt=""
-                                                            class="recieved-msg-data-img">
-                                                        <h2 class="mb-0 pb-0 ms-2">Jhon Doe</h2>
-                                                        <span class="ms-2">3:21 PM</span>
-                                                    </div>
-                                                    <div class="recieved-msg-text">
-                                                        <video controls>
-                                                            <source
-                                                                src="assets/images/Download the Best Free Nature Videos_7.mp4"
-                                                                type="video/mp4">
-                                                            Your browser does not support the video tag.
-                                                        </video>
-                                                    </div>
-                                                </div> -->
+                                              
+                                           
                                             </div>
 
-
                                             <div class="msg-type-area ">
-                                                <div class="previews">
-                                                    <div id="filePreview" class="preview">
-                                                        <!-- <span class="close-icon" id="fileCloseIcon">&times;</span> -->
-                                                    </div>
-                                                    <div id="mediaPreview" class="preview">
-                                                        <!-- <span class="close-icon" id="mediaCloseIcon">&times;</span> -->
-                                                    </div>
-                                                </div>
+                                               <p class="mb-0 pb-0 text-center bg-light select-text">--- Select Option from Above ---</p>
                                                 <div
-                                                    class="msg-type-area--input d-flex align-items-center justify-content-between">
-                                                    <input type="text" placeholder="Type your message"
-                                                        id="emojionearea1">
+                                                    class="msg-type-area--input align-items-center justify-content-between">
+                                                    <input type="text" placeholder="Type your message" >
                                                     <div class="d-flex align-items-center chat-btns">
-
                                                         <button class="ms-md-3 ms-2 send send-msg">
                                                             <p class="mb-0 pb-0 me-2">Send</p>
                                                             <svg xmlns="http://www.w3.org/2000/svg" width="16"
@@ -265,16 +149,13 @@
                                                                 </g>
                                                             </svg>
                                                         </button>
-                                                        <!-- <div class="span6">
-                                                            <textarea id="emojionearea1">Default :smile:</textarea>
-                                                        </div> -->
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
 
-                                    </div>
-                                </div>
+                                    <!-- </div>/ -->
+                                <!-- </div> -->
                             </div>
                         </form>
                     </div>
@@ -308,16 +189,31 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-    <!-- emoji -->
+ 
+
     <script>
-        $(document).ready(function () {
-            $("#emojionearea1").emojioneArea({
-                pickerPosition: "top",
-                tonesStyle: "bullet"
-            });
-        })
+        // Get the scrollable div element
+        var scrollableDiv = document.getElementById("chat-body");
+    
+        // Function to scroll the div to the bottom
+        function scrollToBottom() {
+            scrollableDiv.scrollTop = scrollableDiv.scrollHeight;
+        }
+    
+        // Scroll to bottom initially
+        scrollToBottom();
+    
+        // Optionally, you can call scrollToBottom() whenever new content is added to the div.
     </script>
 
+    <script>
+        $("#other-option").on("click", function(){
+            $(".msg-type-area--input").css("display","flex");
+            $(".select-text").css("display","none");
+            $(".text-options").css("display","none");
+            $(".chat__screen-body-msgs").css("padding-bottom","0");
+        })
+    </script>
 </body>
 
 </html>
