@@ -1,0 +1,210 @@
+
+.form__container{
+    min-height: 85vh !important;
+    margin-top: 7px;
+}
+.chat__screen-wrapper{
+    width: 100% !important;
+}
+
+
+.chat__screen-body-msgs {
+    padding: 5px 20px;
+    height: calc(85vh - 120px);
+    overflow-y: scroll;
+}
+
+
+.chat__screen-body-msgs::-webkit-scrollbar {
+    width: 7px;
+    cursor: pointer;
+}
+
+.chat__screen-body-msgs::-webkit-scrollbar-track {
+    width: 0px !important;
+}
+
+.chat__screen-body-msgs::-webkit-scrollbar-thumb {
+    background-color: #31d4f0;
+    border-radius: 10px;
+        cursor:grab
+}
+
+
+.chat__screen-body-msgs .recieved-msg-data {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chat__screen-body-msgs .recieved-msg-data-img {
+    height: 28px;
+    width: 28px;
+    border-radius: 100%;
+}
+
+.chat__screen-body-msgs .recieved-msg-data h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.chat__screen-body-msgs .recieved-msg-data span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #a4a4a4;
+}
+
+.chat__screen-body-msgs .recieved-msg-text {
+    border-radius: 8px;
+    opacity: 1;
+    background-color: #f6f6f8;
+    padding: 15px;
+    margin-top: 10px;
+    max-width: 550px;
+    font-size: 14px;
+    width: fit-content;
+}
+
+
+.chat__screen-body-msgs .sent-msg {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: self-end;
+}
+
+.chat__screen-body-msgs .sent-msg-data {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.chat__screen-body-msgs .sent-msg-data-img {
+    height: 28px;
+    width: 28px;
+    border-radius: 100%;
+}
+
+.chat__screen-body-msgs .sent-msg-data h2 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.chat__screen-body-msgs .sent-msg-data span {
+    font-size: 12px;
+    font-weight: 400;
+    color: #a4a4a4;
+}
+
+.chat__screen-body-msgs .sent-msg-text {
+    border-radius: 8px;
+    opacity: 1;
+    background-color: #31d4f0;
+    padding: 15px;
+    margin-top: 10px;
+    max-width: 550px;
+    color: white;
+    font-size: 14px;
+}
+
+
+
+.msg-type-area {
+    position: relative;
+    padding: 10px 10px 0px 10px;
+}
+
+.msg-type-area--input {
+    background-color: #f6f6f8 !important;
+    border-radius: 4px;
+    width: 100%;
+    padding: 4px 10px 4px 5px;
+}
+
+.msg-type-area--input input {
+    width: 70%;
+    padding: 10px 10px;
+    opacity: 1;
+    border: none !important;
+    background-color: transparent;
+}
+
+.msg-type-area--input input:active,
+.msg-type-area--input input:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.msg-type-area--input input::placeholder {
+    font-size: 14px;
+    color: #707070;
+    font-weight: 400;
+}
+
+
+.msg-type-area--input .chat-btns button svg {
+    fill: #bfbfbf;
+}
+
+.msg-type-area--input .chat-btns button svg:hover {
+    fill: #31d4f0 !important;
+}
+
+.msg-type-area--input .chat-btns .send {
+    background-color: #31d4f0;
+    color: white;
+    padding: 7px 15px !important;
+    border-radius: 4px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none !important;
+}
+
+.msg-type-area--input .chat-btns .send p {
+    font-size: 14px;
+    font-weight: 500;
+}
+/* ==================================================option styling */
+.chat__screen-wrapper{
+    position: relative;
+    
+    /* background-color: #f031b0; */
+}
+.chat__screen-body-msgs{
+    padding-bottom: 200px;
+}
+
+.text-options .option{
+     background-color: #F8F9FA;
+     color: black;
+     margin-bottom: 7px;
+     padding: 7px 20px;
+     border-radius: 20px;
+     font-size: 14px;
+     max-width: 400px;
+     width: fit-content;
+     margin-left: auto;
+     cursor: pointer;
+     text-transform: capitalize;
+}
+.text-options .option:hover{
+    background-color: #ddd;
+}
+.text-options .option a{
+    text-decoration: none;
+    color: black;
+}
+
+.text-options{
+    position: absolute;
+    bottom: 70px;
+    padding: 15px 15px 0 15px;
+    right: 10px;
+}
+.msg-type-area--input{
+    display: none;
+}

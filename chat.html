@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Roles Form</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.0.7/css/dataTables.dataTables.css">
+    <link rel="stylesheet" href="https://rawgit.com/mervick/emojionearea/master/dist/emojionearea.min.css">
+    <link rel="stylesheet" href="https://emoji-css.afeld.me/emoji.css">
+    <link rel="stylesheet" href="https://emoji-css.afeld.me/emoji.css">
+    <!-- CSS CDN -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="form__container">
+                    <!-- title -->
+                    <div class="title__container  ">
+                        <div class="d-flex justify-content-between flex-md-row flex-column align-items-center  ">
+                            <div class="order-md-1 order-2 text-md-start text-center  ">
+                                <h1 class="mb-0 pb-0">Chat</h1>
+
+                            </div>
+                            <div class="order-md-2 order-1 mb-md-2 mb-4 d-flex justify-content-center ">
+                                <img src="images/logo-powerd.webp" alt="" class="img-fluid logo-img">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body__container">
+                        <form action="" class="w-100">
+                            <div class="right__container ">
+
+                                <div class="chat__screen  p-0">
+
+                                    <!-- chat body -->
+                                    <div class="chat__screen-chats chat__screen-body chats-msgs">
+                                        <!-- <div class="chat__screen-chats--header mb-0">
+                                            <div class="d-flex justify-content-between w-100 align-items-center">
+                                                <div class="d-flex align-items-center open-chat-header">
+                                                    <div class="go-back">
+                                                        <i class="bi bi-arrow-left-short text-primary f-36 me-1"></i>
+                                                    </div>
+                                                    <div class="open-chat-header-img ">
+                                                        <img src="images/Asset 2 (1).png" alt="">
+                                                    </div>
+                                                    <div class="open-chat-header-text ms-2 ps-1">
+                                                        <div class=" ">
+                                                            <h2 class="mb-0 pb-0 mt-2">Jhon Doe</h2>
+                                                            <span class="f-12 text-success mb-0 pb-0">Active</span>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="d-flex align-items-center">
+                                                    <i class="fa-solid fa-circle-check f-30 text-success"></i>
+                                                    <i class="fa-solid fa-file-lines text-gray f-26 ms-3 text-dark-clr"
+                                                        id="documents-btn"></i>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <div class="chat__screen-chats-wrapper " style="overflow-y: hidden;">
+                                            <div class="chat__screen-chats-wrapper--body chat__screen-body-msgs">
+                                                <div class="chat-date mt-2">
+                                                    Wednesday, February 5th
+                                                </div>
+                                                <!-- msg recived -->
+                                                <div class="recieved-msg">
+                                                    <div class="recieved-msg-data">
+                                                        <img src="assets/images/vatar.png" alt=""
+                                                            class="recieved-msg-data-img">
+                                                        <h2 class="mb-0 pb-0 ms-2">Jhon Doe</h2>
+                                                        <span class="ms-2">3:21 PM</span>
+                                                    </div>
+                                                    <div class="recieved-msg-text">
+                                                        <p class="mb-0 pb-0">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                                            do
+                                                            eiusmod
+                                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                                            ad minim
+                                                            veniam,
+                                                            quis.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- msg sent -->
+                                                <div class="sent-msg">
+                                                    <div class="sent-msg-data">
+                                                        <img src="assets/images/vatar.png" alt=""
+                                                            class="sent-msg-data-img">
+                                                        <h2 class="mb-0 pb-0 ms-2">AB Divilar</h2>
+                                                        <span class="ms-2">3:21 PM</span>
+                                                    </div>
+                                                    <div class="sent-msg-text">
+                                                        <p class="mb-0 pb-0">
+                                                            Hello!<br>
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                                            do
+                                                            eiusmod
+                                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                                            ad minim
+                                                            veniam,
+                                                            quis.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- msg recived -->
+                                                <div class="recieved-msg">
+                                                    <div class="recieved-msg-data">
+                                                        <img src="assets/images/vatar.png" alt=""
+                                                            class="recieved-msg-data-img">
+                                                        <h2 class="mb-0 pb-0 ms-2">Jhon Doe</h2>
+                                                        <span class="ms-2">3:21 PM</span>
+                                                    </div>
+                                                    <div class="recieved-msg-text">
+                                                        <p class="mb-0 pb-0">
+                                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                        </p>
+                                                    </div>
+                                                    <div class="recieved-msg-text">
+                                                        <p class="mb-0 pb-0">
+                                                            Lorem ipsum dolor sit.
+                                                        </p>
+                                                    </div>
+                                                    <div class="recieved-msg-text">
+                                                        <p class="mb-0 pb-0">
+                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                            Dolorem
+                                                            itaque
+                                                            voluptatem incidunt similique tempore sit commodi nemo?
+                                                            Eaque, non
+                                                            nulla!
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- msg recived -->
+                                                <!-- <div class="recieved-msg">
+                                                    <div class="recieved-msg-data">
+                                                        <img src="assets/images/vatar.png" alt=""
+                                                            class="recieved-msg-data-img">
+                                                        <h2 class="mb-0 pb-0 ms-2">Jhon Doe</h2>
+                                                        <span class="ms-2">3:21 PM</span>
+                                                    </div>
+
+                                                    <div class="recieved-msg-text">
+                                                        <img src="assets/images/6.jpg" alt="">
+                                                    </div>
+                                                </div> -->
+                                                <!-- date -->
+                                                <!-- <div class="chat-date mt-4">
+                                                    Wednesday, February 5th
+                                                </div> -->
+                                                <!-- msg sent -->
+                                                <!-- <div class="sent-msg">
+                                                    <div class="sent-msg-data">
+                                                        <img src="assets/images/vatar.png" alt=""
+                                                            class="sent-msg-data-img">
+                                                        <h2 class="mb-0 pb-0 ms-2">AB Divilar</h2>
+                                                        <span class="ms-2">3:21 PM</span>
+                                                    </div>
+                                                    <div class="sent-msg-text">
+                                                        <p class="mb-0 pb-0">
+                                                        <div class="recieved-msg-text">
+                                                            <img src="assets/images/2.jpg" alt="">
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div> -->
+                                                <!-- msg recived -->
+                                                <div class="recieved-msg">
+                                                    <div class="recieved-msg-data">
+                                                        <img src="assets/images/vatar.png" alt=""
+                                                            class="recieved-msg-data-img">
+                                                        <h2 class="mb-0 pb-0 ms-2">Jhon Doe</h2>
+                                                        <span class="ms-2">3:21 PM</span>
+                                                    </div>
+                                                    <div class="recieved-msg-text">
+                                                        <p class="mb-0 pb-0">
+                                                            OK
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <!-- msg sent -->
+                                                <!-- <div class="sent-msg">
+                                                    <div class="sent-msg-data">
+                                                        <img src="assets/images/vatar.png" alt=""
+                                                            class="sent-msg-data-img">
+                                                        <h2 class="mb-0 pb-0 ms-2">AB Divilar</h2>
+                                                        <span class="ms-2">3:21 PM</span>
+                                                    </div>
+                                                    <div class="sent-msg-text">
+                                                        <div class="recieved-msg-text">
+                                                            <video controls>
+                                                                <source src="assets/images/big_buck_bunny_720p_1mb.mp4"
+                                                                    type="video/mp4">
+                                                                Your browser does not support the video tag.
+                                                            </video>
+                                                        </div>
+                                                    </div>
+                                                </div> -->
+                                                <!-- msg recived -->
+                                                <!-- <div class="recieved-msg">
+                                                    <div class="recieved-msg-data">
+                                                        <img src="assets/images/vatar.png" alt=""
+                                                            class="recieved-msg-data-img">
+                                                        <h2 class="mb-0 pb-0 ms-2">Jhon Doe</h2>
+                                                        <span class="ms-2">3:21 PM</span>
+                                                    </div>
+                                                    <div class="recieved-msg-text">
+                                                        <video controls>
+                                                            <source
+                                                                src="assets/images/Download the Best Free Nature Videos_7.mp4"
+                                                                type="video/mp4">
+                                                            Your browser does not support the video tag.
+                                                        </video>
+                                                    </div>
+                                                </div> -->
+                                            </div>
+
+
+                                            <div class="msg-type-area ">
+                                                <div class="previews">
+                                                    <div id="filePreview" class="preview">
+                                                        <!-- <span class="close-icon" id="fileCloseIcon">&times;</span> -->
+                                                    </div>
+                                                    <div id="mediaPreview" class="preview">
+                                                        <!-- <span class="close-icon" id="mediaCloseIcon">&times;</span> -->
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="msg-type-area--input d-flex align-items-center justify-content-between">
+                                                    <input type="text" placeholder="Type your message"
+                                                        id="emojionearea1">
+                                                    <div class="d-flex align-items-center chat-btns">
+
+                                                        <button class="ms-md-3 ms-2 send send-msg">
+                                                            <p class="mb-0 pb-0 me-2">Send</p>
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16"
+                                                                height="16" class="" viewBox="0 0 16 16">
+                                                                <g id="Iconly_Bold_Send" data-name="Iconly/Bold/Send"
+                                                                    transform="translate(-2 -2)">
+                                                                    <g id="Send" transform="translate(2 2)">
+                                                                        <path id="Path_1531" data-name="Path 1531"
+                                                                            d="M15.548.466A1.547,1.547,0,0,0,14,.063L1.126,3.808A1.535,1.535,0,0,0,.02,5.024a1.8,1.8,0,0,0,.8,1.682L4.848,9.181a1.043,1.043,0,0,0,1.288-.155l4.611-4.639a.587.587,0,0,1,.848,0,.61.61,0,0,1,0,.854L6.976,9.881a1.059,1.059,0,0,0-.154,1.295l2.46,4.067A1.528,1.528,0,0,0,10.61,16a1.659,1.659,0,0,0,.2-.008,1.559,1.559,0,0,0,1.3-1.111L15.932,2.02A1.571,1.571,0,0,0,15.548.466"
+                                                                            transform="translate(0 0)" fill="#fff" />
+                                                                    </g>
+                                                                </g>
+                                                            </svg>
+                                                        </button>
+                                                        <!-- <div class="span6">
+                                                            <textarea id="emojionearea1">Default :smile:</textarea>
+                                                        </div> -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fixed Footer -->
+    <footer class="fixed-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-center align-items-center ">
+                        Powerd By <img src="images/logo-powerd.webp" alt="" class="logo-powerd ms-3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/2.0.7/js/dataTables.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <!-- emoji -->
+    <script>
+        $(document).ready(function () {
+            $("#emojionearea1").emojioneArea({
+                pickerPosition: "top",
+                tonesStyle: "bullet"
+            });
+        })
+    </script>
+
+</body>
+
+</html>

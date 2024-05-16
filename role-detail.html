@@ -741,7 +741,7 @@
                                                             <table id="example" class="display" style="width:100%">
                                                                 <thead>
                                                                     <tr>
-                                                                        <th>
+                                                                        <th class="no-sort">
                                                                             <input class="form-check-input mb-0  "
                                                                                 type="checkbox" value=""
                                                                                 id="selectAll" />
@@ -1875,7 +1875,11 @@
             "bInfo": false, //Dont display info e.g. "Showing 1 to 4 of 4 entries"
             "paging": false,//Dont want paging                
             "bPaginate": false,//Dont want paging   
-            scrollY: '400px'
+            scrollY: '400px',
+            "columnDefs": [{
+                "targets": 'no-sort',
+                "orderable": false,
+            }]
         })
     </script>
     <script>
